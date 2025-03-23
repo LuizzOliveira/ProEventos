@@ -7,9 +7,10 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { RedeSocialService } from '@app/services/redeSocial.service';
 
 @Component({
-  selector: 'app-redesSociais',
-  templateUrl: './redesSociais.component.html',
-  styleUrls: ['./redesSociais.component.scss']
+    selector: 'app-redesSociais',
+    templateUrl: './redesSociais.component.html',
+    styleUrls: ['./redesSociais.component.scss'],
+    standalone: false
 })
 export class RedesSociaisComponent implements OnInit {
   modalRef: BsModalRef;

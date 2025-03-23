@@ -7,9 +7,10 @@ import { map, debounceTime, take, tap } from 'rxjs/operators';
 import { Palestrante } from '@app/models/Palestrante';
 
 @Component({
-  selector: 'app-palestrante-detalhe',
-  templateUrl: './palestrante-detalhe.component.html',
-  styleUrls: ['./palestrante-detalhe.component.scss'],
+    selector: 'app-palestrante-detalhe',
+    templateUrl: './palestrante-detalhe.component.html',
+    styleUrls: ['./palestrante-detalhe.component.scss'],
+    standalone: false
 })
 export class PalestranteDetalheComponent implements OnInit {
   public form!: FormGroup;

@@ -20,10 +20,11 @@ import { DatePipe } from '@angular/common';
 import { environment } from '@environments/environment';
 
 @Component({
-  selector: 'app-evento-detalhe',
-  templateUrl: './evento-detalhe.component.html',
-  styleUrls: ['./evento-detalhe.component.scss'],
-  providers: [DatePipe],
+    selector: 'app-evento-detalhe',
+    templateUrl: './evento-detalhe.component.html',
+    styleUrls: ['./evento-detalhe.component.scss'],
+    providers: [DatePipe],
+    standalone: false
 })
 export class EventoDetalheComponent implements OnInit {
   modalRef: BsModalRef;

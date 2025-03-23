@@ -11,9 +11,10 @@ import { PaginatedResult, Pagination } from '@app/models/Pagination';
 import { environment } from '@environments/environment';
 
 @Component({
-  selector: 'app-palestrante-lista',
-  templateUrl: './palestrante-lista.component.html',
-  styleUrls: ['./palestrante-lista.component.scss']
+    selector: 'app-palestrante-lista',
+    templateUrl: './palestrante-lista.component.html',
+    styleUrls: ['./palestrante-lista.component.scss'],
+    standalone: false
 })
 export class PalestranteListaComponent implements OnInit {
   public Palestrantes: Palestrante[] = [];

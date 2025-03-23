@@ -9,9 +9,10 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
-  selector: 'app-perfil-detalhe',
-  templateUrl: './perfil-detalhe.component.html',
-  styleUrls: ['./perfil-detalhe.component.scss']
+    selector: 'app-perfil-detalhe',
+    templateUrl: './perfil-detalhe.component.html',
+    styleUrls: ['./perfil-detalhe.component.scss'],
+    standalone: false
 })
 export class PerfilDetalheComponent implements OnInit {
   @Output() changeFormValue = new EventEmitter();

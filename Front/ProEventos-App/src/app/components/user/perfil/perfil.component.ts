@@ -6,9 +6,10 @@ import { AccountService } from '@app/services/account.service';
 import { environment } from '@environments/environment';
 
 @Component({
-  selector: 'app-perfil',
-  templateUrl: './perfil.component.html',
-  styleUrls: ['./perfil.component.scss'],
+    selector: 'app-perfil',
+    templateUrl: './perfil.component.html',
+    styleUrls: ['./perfil.component.scss'],
+    standalone: false
 })
 export class PerfilComponent implements OnInit {
   public usuario = {} as UserUpdate;

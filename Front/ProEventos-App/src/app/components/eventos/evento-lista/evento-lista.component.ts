@@ -11,9 +11,10 @@ import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-evento-lista',
-  templateUrl: './evento-lista.component.html',
-  styleUrls: ['./evento-lista.component.scss'],
+    selector: 'app-evento-lista',
+    templateUrl: './evento-lista.component.html',
+    styleUrls: ['./evento-lista.component.scss'],
+    standalone: false
 })
 export class EventoListaComponent implements OnInit {
   modalRef: BsModalRef;
